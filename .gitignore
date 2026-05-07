@@ -1,0 +1,10 @@
+.venv
+node_modules/
+dist/
+.pio/
+.env*
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+tmp/
