@@ -1,0 +1,110 @@
+body {
+  background-color: #F5F3FF;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-vacuna {
+  background: #6C3FC5;
+  padding: 14px 24px;
+}
+
+.navbar-vacuna .navbar-brand {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navbar-vacuna .nav-link {
+  color: rgba(255,255,255,0.75) !important;
+  border-radius: 99px;
+  padding: 6px 16px !important;
+  transition: all 0.2s;
+}
+
+.navbar-vacuna .nav-link.active,
+.navbar-vacuna .nav-link:hover {
+  background: rgba(255,255,255,0.2);
+  color: #fff !important;
+}
+
+.stat-card {
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  color: #fff;
+}
+
+.stat-card .label {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-bottom: 6px;
+}
+
+.stat-card .value {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.stat-purple { background: #6C3FC5; }
+.stat-green  { background: #1D9E75; }
+.stat-pink   { background: #D4537E; }
+
+.main-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  border: none;
+  box-shadow: 0 2px 12px rgba(108,63,197,0.07);
+}
+
+.page-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #26215C;
+  margin-bottom: 1.5rem;
+}
+
+.badge-normal  { background: #1D9E75; color: #E1F5EE; }
+.badge-alerta  { background: #BA7517; color: #FAEEDA; }
+.badge-critico { background: #A32D2D; color: #FCEBEB; }
+.badge-estado  { font-size: 14px; padding: 6px 16px; border-radius: 99px; font-weight: 500; }
+
+.table thead th { background: #F5F3FF; color: #534AB7; border-bottom: 2px solid #AFA9EC; }
+.table tbody tr:hover { background: #F5F3FF; }
+
+.btn-primary-custom {
+  background: #6C3FC5;
+  border: none;
+  border-radius: 99px;
+  padding: 10px 28px;
+  color: #fff;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.btn-primary-custom:hover { background: #534AB7; color: #fff; }
+
+.form-control:focus {
+  border-color: #7F77DD;
+  box-shadow: 0 0 0 3px rgba(108,63,197,0.15);
+}
+
+.alert-item-custom {
+  background: #FCEBEB;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-left: 4px solid #E24B4A;
+  border-radius: 0;
+}
+
+.alert-ok-custom {
+  background: #E1F5EE;
+  border-radius: 10px;
+  padding: 12px 14px;
+  color: #0F6E56;
+  font-weight: 500;
+}
