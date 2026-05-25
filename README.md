@@ -86,8 +86,9 @@ git checkout -b feat/mi-cambio
 
 ## Autores
 
-- Diego Armando Guzmán
+- Diego Armando.
 - Sebastián (Sebrd06) — compañero / repositorio original
+- Andres Beltrán.
 
 ## Licencia
 
