@@ -28,7 +28,18 @@ git clone https://github.com/Sebrd06/vacuna-monitor.git
 cd vacuna-monitor
 ```
 
-2. Copia y configura variables de entorno según `docs` o `frontend` (si aplica).
+2. Crea `frontend/.env` con tus credenciales de Firebase.
+
+```env
+VITE_FIREBASE_API_KEY=tu_api_key
+VITE_FIREBASE_AUTH_DOMAIN=tu_proyecto.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=tu_proyecto
+VITE_FIREBASE_STORAGE_BUCKET=tu_proyecto.appspot.com
+VITE_FIREBASE_MESSAGING_ID=tu_messaging_sender_id
+VITE_FIREBASE_APP_ID=tu_app_id
+```
+
+3. El archivo `frontend/.env` queda ignorado por Git gracias a `frontend/.gitignore`.
 
 ## Frontend — ejecución local
 
